@@ -1,0 +1,20 @@
+.button-component {
+    background-color: var(--background-secondary);
+    border: 1px solid var(--border-primary);
+    color: var(--text);
+    font-size: 1.2em;
+    border-radius: 8px;
+    padding: 16px 48px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.button-component:hover {
+    background-color: var(--border-primary);
+    border-color: var(--border-tertiary);
+}
+
+.button-component:active {
+    background-color: var(--border-primary-alpha);
+    border-color: var(--background-secondary);
+}

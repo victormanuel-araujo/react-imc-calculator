@@ -1,0 +1,29 @@
+.text-input-label-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.text-input-label-wrapper span {
+    color: var(--text);
+    font-size: 1.2em;
+}
+
+.text-input-label-wrapper input {
+    background-color: var(--background-tertiary);
+    border: 1px solid var(--border-primary);
+    border-radius: 4px;
+    font-size: 2em;
+    color: var(--text);
+    padding: 8px 16px;
+}
+
+.text-input-label-wrapper input:hover {
+    outline: none;
+    border-color: var(--border-secondary);
+}
+
+.text-input-label-wrapper input:focus {
+    outline: none;
+    border-color: var(--border-tertiary);
+}

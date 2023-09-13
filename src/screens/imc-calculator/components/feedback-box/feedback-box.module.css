@@ -1,0 +1,20 @@
+.feedback-box-wrapper {
+    border: 1px solid;
+    display: flex;
+    padding: 16px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.feedback-box-wrapper.success {
+    background-color: var(--background-success);
+    color: var(--text-success);
+}
+
+.feedback-box-wrapper.error {
+    background-color: var(--background-error);
+    color: var(--text-error);
+}
